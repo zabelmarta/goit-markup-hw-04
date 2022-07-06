@@ -159,6 +159,8 @@
 .strengths {
   list-style-type: none;
   display: flex;
+  padding-left: 0;
+  justify-content: space-between;
 }
 
 
@@ -208,18 +210,7 @@ margin-bottom: 30px;
   margin: 0px;
 }
 
-.subheader {
-  display: flex;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-around;
-  align-items: center;
-}
+
 .subheader_tittle {
   margin: 0px;
   padding-bottom: 50px;
@@ -235,7 +226,7 @@ margin-bottom: 30px;
 .images-list {
   display: flex;
   margin: 0px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap:30px
 
@@ -261,7 +252,7 @@ margin-bottom: 30px;
 .customers-list {
   display: flex;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-left: 0px;
   margin: 0px;
@@ -336,7 +327,7 @@ margin-bottom: 30px;
 .customers {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-left: 0px;
 }
 
