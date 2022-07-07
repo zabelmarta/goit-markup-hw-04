@@ -114,8 +114,8 @@
 
 .head {
   display: flex;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-  url(/images/img-menu.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url('../images/img-menu.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   height: 600px;
@@ -248,11 +248,21 @@ margin-bottom: 30px;
 }
 
 .images-list,
-.team-list,
-.customers-list {
+.team-list {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.team-list-tittle,
+.customers-list{
+  justify-content: center;
+   display: flex;
+  list-style-type: none;
+
   align-items: center;
   padding-left: 0px;
   margin: 0px;
@@ -300,21 +310,26 @@ margin-bottom: 30px;
 
 .social-list-link {
   display: flex;
-  width: 44px;
+ width: 44px;
   height: 44px;
   background-color: #ffffff;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
+  fill: #AFB1B8;
+
 }
 
 .social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:focus,
+.social-icon:hover,
+.social-icon:focus {
   fill: #fff;
   background-color: #2196f3;
 }
@@ -351,6 +366,7 @@ margin-bottom: 30px;
 .customer-icon:focus {
   fill: #2196f3;
   border-color: #2196f3;
+cursor: pointer;
 }
 
 /* ----FOOTER---- */
@@ -406,6 +422,7 @@ margin-top: 94px;
   padding-left: 0px;
   list-style: none;
   margin-top: 20px;
+  vertical-align: middle;
 }
 
 .social-list-tittle {
